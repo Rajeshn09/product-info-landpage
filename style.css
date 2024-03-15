@@ -1,0 +1,165 @@
+*{
+  background-color: black;
+  padding: 0px;
+  margin: 0;
+}
+body{background-color: black;}
+.navbar{
+  background-color: aliceblue;
+}
+section{
+  padding: 0;
+} 
+.lens_section-1 {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url('images/lenss.png'); 
+  background-size: contain;
+  background-position: center center; 
+  border-radius: 20px;
+}
+.lens_section-2{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url('images/img-2.png'); 
+  background-size: contain;
+  background-position: center center; 
+  border-radius: 20px;
+}
+.lens_section-3{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url('images/img-3.png'); 
+  background-size: contain;
+  background-position: center center; 
+  border-radius: 20px;
+}
+.lens_section-4{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url('images/snapdragon.png'); 
+  background-size: contain;
+  background-position: center center; 
+  border-radius: 20px;
+  margin-left: 20%;
+}
+.lens_section-5{
+  width: 300px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url('images/img-5.png'); 
+  background-size: contain;
+  background-position: center center; 
+  border-radius: 20px;
+}
+.lens_section-6{
+  width: 300px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url('images/img-6.png'); 
+  background-size: contain;
+  background-position: center center; 
+  border-radius: 20px;
+}
+.lens_section-7{
+ 
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-image: url('images/horizontal.png'); 
+  background-size: contain;
+  background-position: center center; 
+  border-radius: 20px;
+  
+}
+.lens_section-7 h3{
+  color: white;
+  font-style: bold;
+  margin-top: 10%;
+  margin-left: 0%;
+  z-index: 2;
+  padding: 20px;
+  background: none;
+  font-weight: 10px;
+}
+
+.description{
+
+  color: white;
+}
+.mobile{
+  background-image: url('images/N1_Lifestyle_shot_Black.png');
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  padding: 0;
+  background-position: center center; 
+  border-radius: 20px;
+}
+.nano-tech{
+  background-image: url('images/nano-tech.webp');
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  margin-top: 10%;
+
+  
+  
+}
+.nano-text {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  text-align: left;
+  background: none;
+  
+ 
+}
+.nano-text h2,p{
+  background: none;
+  color: black;
+  
+}
+.camera{
+  border: 2px solid white;
+  background-image: url('images/camera-1.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+.camera_section h1,p{
+  color: white;
+}
+.video-section {
+  position: relative;
+  width: 100%;
+}
+
+.video-wrapper {
+  position: relative;
+}
+
+.video-overlay {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background: none;
+  
+}
+.footer-section {
+  background-color: #333;
+  color: #fff;
+ 
+  text-align: center;
+}

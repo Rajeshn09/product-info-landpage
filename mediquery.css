@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+    }
+    
+    .description h2 {
+        font-size: 1.5rem;
+    }
+    
+    .description h1 {
+        font-size: 2.5rem;
+    }
+    
+    .description h5 {
+        font-size: 1rem;
+    }
+    
+    .camera-section h1 {
+        font-size: 1.5rem;
+    }
+    
+    .camera-section p {
+        font-size: 1rem;
+    }
+    
+    .footer-section p {
+        font-size: 0.9rem;
+    }
+}

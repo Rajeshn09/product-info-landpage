@@ -1,0 +1,148 @@
+$background-color: black;
+$border-radius: 20px;
+
+* {
+    background-color: $background-color;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $background-color;
+}
+
+.navbar {
+    background-color: aliceblue;
+}
+
+section {
+    padding: 0;
+}
+
+.lens_section {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    border-radius: $border-radius;
+}
+
+.lens_section-1 {
+    height: 500px;
+    background-image: url('images/lenss.png');
+}
+
+.lens_section-2 {
+    height: 400px;
+    background-image: url('images/img-2.png');
+}
+
+.lens_section-3 {
+    height: 400px;
+    background-image: url('images/img-3.png');
+}
+
+.lens_section-4 {
+    height: 400px;
+    background-image: url('images/snapdragon.png');
+    margin-left: 20%;
+}
+
+.lens_section-5,
+.lens_section-6 {
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+}
+
+.lens_section-5 {
+    background-image: url('images/img-5.png');
+}
+
+.lens_section-6 {
+    background-image: url('images/img-6.png');
+}
+
+.lens_section-7 {
+    height: 280px;
+    background-image: url('images/horizontal.png');
+}
+
+.lens_section-7 h3 {
+    color: white;
+    font-style: bold;
+    margin-top: 10%;
+    padding: 20px;
+    font-weight: 10px;
+}
+
+.description {
+    color: white;
+}
+
+.mobile,
+.nano-tech {
+    background-size: cover;
+    width: 100%;
+    border-radius: $border-radius;
+}
+
+.mobile {
+    background-image: url('images/N1_Lifestyle_shot_Black.png');
+    height: 500px;
+    background-position: center center;
+}
+
+.nano-tech {
+    background-image: url('images/nano-tech.webp');
+    height: 300px;
+    margin-top: 10%;
+}
+
+.nano-text {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    text-align: left;
+}
+
+.nano-text h2, p {
+    color: black;
+}
+
+.camera {
+    border: 2px solid white;
+    background-size: cover;
+    height: 400px;
+    background-image: url('images/camera-1.jpg');
+}
+
+.camera_section h1, p {
+    color: white;
+}
+
+.video-section {
+    position: relative;
+    width: 100%;
+
+    .video-wrapper {
+        position: relative;
+
+        .video-overlay {
+            position: absolute;
+            bottom: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.footer-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
